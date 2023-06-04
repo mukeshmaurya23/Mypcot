@@ -25,38 +25,38 @@ const RightSideConatiner = () => {
           <h2 className="text-xl text-white font-semibold mb-4">
             Popular Movies
           </h2>
-          <div className="flex mb-4 shadow-lg">
-            <div className="w-24 h-32 rounded-lg overflow-hidden mr-4">
+          <div className="flex flex-row md:flex-row md:mb-4 shadow-lg">
+            <div className="w-24 h-32 rounded-lg overflow-hidden mb-4 md:mb-0 md:mr-4">
               <img
                 src={john}
                 alt="John Wick"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="mx-16 my-9 lg:mx-0 lg:my-0">
               <h3 className="text-lg text-white font-semibold">John Wick</h3>
               <p className="text-gray-300">Action, Horror</p>
               <p className="text-gray-300 mt-3">Rating: 4.5/5</p>
             </div>
           </div>
 
-          <div className="flex mb-4 shadow-lg">
-            <div className="w-24 h-32 rounded-lg overflow-hidden mr-4 p-2">
+          <div className="flex flex-row md:flex-row md:mb-4 shadow-lg">
+            <div className="w-24 h-32 rounded-lg overflow-hidden mb-4 md:mb-0 md:mr-4 p-2">
               <img
                 src={ipman}
                 alt="Ip Man 2"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="sm">
               <h3 className="text-lg text-white font-semibold">Ip Man 2</h3>
               <p className="text-gray-300">Action, Horror</p>
               <p className="text-gray-300 mt-3">Rating: 4.2/5</p>
             </div>
           </div>
 
-          <div className="flex mb-4 shadow-lg">
-            <div className="w-24 h-32 rounded-lg overflow-hidden mr-4 p-2">
+          <div className="flex flex-row md:flex-row md:mb-4 shadow-lg">
+            <div className="w-24 h-32 rounded-lg overflow-hidden mb-4 md:mb-0 md:mr-4 p-2">
               <img
                 src={madmax}
                 alt="Mad Max"
@@ -70,13 +70,13 @@ const RightSideConatiner = () => {
             </div>
           </div>
         </div>
-        <button className="bg-red-600 hover:bg-red-400 text-white px-4 py-2 rounded-lg ml-4 w-[16rem]">
+        <button className="bg-red-600 hover:bg-red-400 text-white px-4 py-2 rounded-lg ml-4 mb-4 md:w-[16rem]">
           See More
         </button>
         <div className="m-6">
           <h2 className="text-xl text-white font-semibold mb-4">Favorites</h2>
-          <div className="flex mb-4 shadow-lg ">
-            <div className="w-24 h-32 rounded-lg overflow-hidden mr-4">
+          <div className="flex flex-row md:flex-row md:mb-4 shadow-lg">
+            <div className="w-24 h-32 rounded-lg overflow-hidden mb-4 md:mb-0 md:mr-4">
               <img
                 src={legend}
                 alt="I AM Legend"
@@ -90,8 +90,8 @@ const RightSideConatiner = () => {
             </div>
           </div>
 
-          <div className="flex shadow-lg">
-            <div className="w-24 h-32 rounded-lg overflow-hidden mr-4">
+          <div className="flex flex-row md:flex-row shadow-lg">
+            <div className="w-24 h-32 rounded-lg overflow-hidden mb-4 md:mb-0 md:mr-4">
               <img
                 src={hobbit}
                 alt="Hobbit 1"
@@ -105,7 +105,7 @@ const RightSideConatiner = () => {
             </div>
           </div>
         </div>
-        <button className="bg-red-600 hover:bg-red-400 text-white px-4 py-2 mb-5 rounded-lg ml-4 w-[16rem]">
+        <button className="bg-red-600 hover:bg-red-400 text-white px-4 py-2 mb-5 rounded-lg ml-4 md:w-[16rem]">
           See More
         </button>
       </div>

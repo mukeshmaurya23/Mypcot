@@ -11,7 +11,7 @@ const LeftSideConatiner = () => {
   };
   return (
     <>
-      <div className="w-[16rem] p-2 m-2">
+      <div className="w-[16rem] p-2 m-2 ">
         <div className="flex space-x-2">
           <img
             src={logo}
@@ -22,7 +22,7 @@ const LeftSideConatiner = () => {
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 24 24"
             color="red"
             style={{ color: "red" }}
@@ -41,14 +41,16 @@ const LeftSideConatiner = () => {
         </div>
         <h2 className="m-2 text-white font-semibold mt-8">MENU</h2>
         <ul className="mt-8">
-          <li class="p-2 text-white hover:bg-gray-700 rounded-lg  cursor-pointer flex items-center">
-            <i
-              className="fa fa-home hover:text-red-600 mr-2"
-              aria-hidden="true"
-            ></i>
-            Home
+          <li className="p-2 text-white hover:bg-gray-700 rounded-lg cursor-pointer flex items-center">
+            <div className="relative">
+              <span className="inline-block hover:bg-red-600 w-4 h-4 border-r-2 border-gray-700 absolute  bottom-0"></span>
+              <i
+                className="fa fa-home hover:text-red-600 mr-2"
+                aria-hidden="true"
+              ></i>
+              Home
+            </div>
           </li>
-
           <li className="p-2 mt-3 text-white hover:bg-gray-700  rounded-lg  cursor-pointer">
             <i
               className="fa fa-building mr-2 hover:text-red-600 "

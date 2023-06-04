@@ -19,7 +19,7 @@ export default function Slider() {
 
   return (
     <div className="mt-5 relative">
-      <div className="relative rounded-3xl overflow-hidden">
+      <div className="relative rounded-3xl">
         <img
           src={images[currentImageIndex]}
           alt={`image ${currentImageIndex + 1}`}
@@ -33,7 +33,7 @@ export default function Slider() {
             <p className="text-white mb-4">
               ACTIONS, ADVENTURE, COMEDY %98 Match
             </p>
-            <div className="flex justify-start gap-2 mb-12">
+            <div className="flex flex-col md:flex-row md:justify-start gap-2 mb-12">
               <button className="bg-red-700 hover:bg-red-600 text-white px-4 py-2 rounded-lg">
                 Watch Now
               </button>
@@ -43,10 +43,10 @@ export default function Slider() {
             </div>
           </div>
           <button
-            className="absolute top-2/4 right-2 bg-white text-dark rounded-full p-2"
+            className="absolute top-2/4 right-2 bg-gray-400 rounded-full text-dark  px-[1.1902rem] py-[12px] "
             onClick={goToNextImage}
           >
-            <i className="fa fa-chevron-right" aria-hidden="true"></i>
+            <i className="fa fa-chevron-right " aria-hidden="true"></i>
           </button>
           <div className="absolute top-2 left-2 flex items-center">
             <div className="relative">
