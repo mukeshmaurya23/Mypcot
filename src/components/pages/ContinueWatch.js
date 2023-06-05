@@ -62,10 +62,10 @@ const ContinueWatch = () => {
   return (
     <>
       <div className="grid grid-cols-12">
-        <h2 className="text-white text-xl font-semibold mt-6 ml-3 col-span-3">
+      <h2 className="text-white text-[13px] font-semibold mt-6 ml-1 col-span-4 lg:text-xl md:text-xl ">
           Continue Watching
         </h2>
-        <div className="col-span-9">
+        <div className="col-span-8">
           <div className="flex justify-end mt-6">
             <button
               className="bg-transparent border border-gray-300 rounded-full p-1 px-3 bg-gray-100 hover:bg-gray-500"

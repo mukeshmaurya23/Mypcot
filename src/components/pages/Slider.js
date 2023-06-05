@@ -19,11 +19,11 @@ export default function Slider() {
 
   return (
     <div className="mt-5 relative">
-      <div className="relative rounded-3xl">
+      <div className="relative ">
         <img
           src={images[currentImageIndex]}
           alt={`image ${currentImageIndex + 1}`}
-          className="h-[28rem] w-full object-cover"
+          className="h-[28rem] w-full object-cover rounded-xl"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center">
           <div className="w-3/4 text-left md:w-2/4 absolute bottom-0 left-0 p-4">

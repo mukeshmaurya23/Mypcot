@@ -9,7 +9,7 @@ const RightSideConatiner = () => {
   return (
     <>
       <div>
-        <div className="bg-transparent p-4 mt-2">
+        <div className="bg-transparent p-4 mt-2 text-center">
           <i
             className="fa fa-search text-gray-500 absolute ml-3 mt-[0.6rem]"
             aria-hidden="true"
@@ -17,7 +17,7 @@ const RightSideConatiner = () => {
           <input
             type="text"
             placeholder="     Search..."
-            className="bg-transparent border text-white  border-gray-300 rounded-full p-1 px-3 focus:outline-none focus:ring-1 focus:ring-blue-400 focus:border-transparent"
+            className="bg-transparent border  text-white  border-gray-300 rounded-full p-1 px-3 focus:outline-none focus:ring-1 focus:ring-blue-400 focus:border-transparent"
           />
         </div>
 
@@ -33,7 +33,7 @@ const RightSideConatiner = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="mx-16 my-9 lg:mx-0 lg:my-0">
+            <div className="mx-8 lg:mx-0 lg:my-0">
               <h3 className="text-lg text-white font-semibold">John Wick</h3>
               <p className="text-gray-300">Action, Horror</p>
               <p className="text-gray-300 mt-3">Rating: 4.5/5</p>
@@ -48,7 +48,7 @@ const RightSideConatiner = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="sm">
+            <div className="mx-8 lg:mx-0 lg:my-0">
               <h3 className="text-lg text-white font-semibold">Ip Man 2</h3>
               <p className="text-gray-300">Action, Horror</p>
               <p className="text-gray-300 mt-3">Rating: 4.2/5</p>
@@ -63,7 +63,7 @@ const RightSideConatiner = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="mx-8 lg:mx-0 lg:my-0">
               <h3 className="text-lg text-white font-semibold">Mad Max</h3>
               <p className="text-gray-300">Action, Horror</p>
               <p className="text-gray-300 mt-3">Rating: 4.2/5</p>
@@ -83,7 +83,7 @@ const RightSideConatiner = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="mx-8 lg:mx-0 lg:my-0">
               <h3 className="text-lg text-white font-semibold">I AM Legend</h3>
               <p className="text-gray-300">Action, Adventure</p>
               <p className="text-gray-300 mt-3">Rating: 4.3/5</p>
@@ -98,7 +98,7 @@ const RightSideConatiner = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="mx-8 lg:mx-0 lg:my-0">
               <h3 className="text-lg text-white font-semibold">Hobbit 1</h3>
               <p className="text-gray-300">Action, Adventure</p>
               <p className="text-gray-300 mt-3">Rating: 4.1/5</p>

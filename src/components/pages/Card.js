@@ -173,10 +173,10 @@ const Card = () => {
   return (
     <>
       <div className="grid grid-cols-12">
-        <h2 className="text-white text-xl font-semibold mt-6 ml-3 col-span-3">
+        <h2 className="text-white text-xl font-semibold mt-6 ml-1 col-span-4 ">
           Best Articles
         </h2>
-        <div className="col-span-9">
+        <div className="col-span-8">
           <div className="flex justify-end mt-6">
             <button
               className="bg-transparent border border-gray-300 rounded-full p-1 px-3 bg-gray-100 hover:bg-gray-500"
@@ -201,7 +201,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5">
         {videos &&
           videos.slice(current, current + 4).map((video) => (
             <div
@@ -213,14 +213,14 @@ const Card = () => {
                   <img
                     src={video.snippet.thumbnails.medium.url}
                     alt=""
-                    className="h-[15rem] w-full object-cover rounded-lg"
+                    className="h-[15rem] w-full object-cover rounded-md"
                   />
 
                   <div className="absolute top-0 right-0 bg-black bg-opacity-70 text-white p-2 ">
                     <i className="fa fa-plus" aria-hidden="true"></i>
                   </div>
                   <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2">
-                    <h1 className="text-md font-semibold text-center">
+                    <h1 className="text-[15px] font-semibold text-center">
                       {video.snippet.title}
                     </h1>
                     <p className="text-sm text-center">

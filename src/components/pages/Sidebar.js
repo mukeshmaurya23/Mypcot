@@ -8,10 +8,11 @@ import Card from "./Card";
 import ContinueWatch from "./ContinueWatch";
 const SideBar = () => {
   return (
-    <div className="flex flex-col md:flex-row">
-      <LeftSideConatiner />
-      <div className="border border-gray-600 md:inline-block min-h-screen border-1"></div>
-      <div className="flex-1">
+    <div className="flex relative flex-col md:flex-row overflow-hidden">
+    <LeftSideConatiner />
+     
+   
+      <div className="flex-1 lg:ml-[17rem] relative border border-gray-500">
         <div className="p-2 m-3">
           <ul className="flex flex-wrap mb-4">
             <li className="mr-4 mb-2">
@@ -46,7 +47,7 @@ const SideBar = () => {
           </div>
         </div>
       </div>
-      <div className="border border-gray-600 md:inline-block min-h-screen border-1"></div>
+    
       <div className="w-full md:w-[18rem]">
         <RightSideConatiner />
       </div>
